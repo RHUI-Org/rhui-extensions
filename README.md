@@ -1,4 +1,5 @@
-# RHUI Extensions - just a bunch of tips, tricks and scripts that you might find useful
+# RHUI Extensions
+Just a bunch of tips, tricks and scripts that RHUI administrator might find useful.
 
 ## Repository labels and ids for different RHEL products
 ### IMPORTANT !!!
