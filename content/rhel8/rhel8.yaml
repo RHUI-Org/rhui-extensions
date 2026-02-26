@@ -1,6 +1,4 @@
-name: Red Hat Enterprise Linux 8 on x86_64
-repo_ids:
-
+name: Red Hat Enterprise Linux 8 on x86_64 and ARM64
 
 repo_labels:
   - rhel-8-for-x86_64-appstream-beta-rhui-rpms
