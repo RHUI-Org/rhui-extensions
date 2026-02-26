@@ -1,0 +1,4 @@
+[rhui]
+username = admin
+password = admin
+cert_expiration = 730

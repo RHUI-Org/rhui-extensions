@@ -3,13 +3,43 @@
 import yaml
 import sys
 import os
+import configparser
+
+rhui_user = "admin"
+rhui_pass = "admin"
+cert_expiration_in_days = "730"
+
+
+def read_config(config_path):
+    global rhui_user, rhui_pass, cert_expiration_in_days
+    config = configparser.ConfigParser()
+    config.read(config_path)
+    if "rhui" in config:
+        rhui_user = config["rhui"].get("username", rhui_user)
+        rhui_pass = config["rhui"].get("password", rhui_pass)
+        cert_expiration_in_days = config["rhui"].get("cert_expiration", cert_expiration_in_days)
 
 def error(msg):
     print(f"Error: {msg}", file=sys.stderr)
     sys.exit(1)
 
+def warn(msg):
+    print(f"Warning: {msg}", file=sys.stderr)
+
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+home_config = os.path.expanduser("~/rhui-extensions.conf")
+local_config = os.path.join(script_dir, "rhui-extensions.conf")
+if os.path.exists(home_config):
+    read_config(home_config)
+elif os.path.exists(local_config):
+    read_config(local_config)
+else:
+    warn("There is no rhui-extensions.conf in this directory or in ~/ directory. Consider creating one based on rhui-extensions.conf-example from repository root.")
+
+
 if len(sys.argv) < 2:
-    error("No input file given. Usage: script.py <file.yaml>")
+    error("No input file given. Usage: generate_commands <file.yaml>")
 
 input_path = sys.argv[1]
 
@@ -36,21 +66,45 @@ if labels is None:
 if not isinstance(labels, list):
     error("repo_labels must be a list")
 
+
+generate_sync_command = True
+repo_ids = data.get("repo_ids_for_sync")
+if repo_ids is None:
+    warn("YAML missing key: repo_ids_for_sync - skipping")
+    generate_sync_command = False
+if not isinstance(repo_ids, list):
+    warn("repo_ids_for_sync is not a list - skipping")
+    generate_sync_command = False
+
+
 filename = os.path.splitext(os.path.basename(input_path))[0]
 
+if generate_sync_command:
+    print(
+        f"rhui-manager --username {rhui_user} --password {rhui_pass} repo add_by_repo"
+        f" --repo_ids {','.join(repo_ids)}"
+    )
+    print()
+
 print(
-    "rhui-manager client cert"
+    f"rhui-manager --username {rhui_user} --password {rhui_pass} client cert"
     f" --name {filename}"
-    " --days 730"
+    f" --days {cert_expiration_in_days}"
     " --dir /tmp"
     f" --repo_label {','.join(labels)}"
 )
-
 print()
 
 print(
-    "rhui-manager client rpm"
+    f"rhui-manager --username {rhui_user} --password {rhui_pass} client rpm"
     f" --private_key {filename}.key"
     f" --entitlement_cert {filename}.crt"
     f" --dir /tmp --rpm_name {filename}"
 )
+print()
+
+if generate_sync_command:
+    print("# Syncing of ALL repos")
+    print("# !!! NOTE !!! If you plan to add multiple RHEL versions/variants, run this step only after you add all repos.")
+    print(f"rhui-manager --username {rhui_user} --password {rhui_pass} repo sync_all")
+
