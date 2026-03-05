@@ -1,0 +1,41 @@
+name: Red Hat Enterprise Linux 9 High Availability on x86_64
+
+repo_labels:
+  - rhel-9-for-x86_64-appstream-rhui-rpms
+  - rhel-9-for-x86_64-baseos-rhui-rpms
+  - rhel-9-for-x86_64-supplementary-rhui-rpms
+  - rhel-9-for-x86_64-highavailability-rhui-rpms
+  - codeready-builder-for-rhel-9-x86_64-rhui-rpms
+  - codeready-builder-for-rhel-9-x86_64-rhui-source-rpms
+  - codeready-builder-for-rhel-9-x86_64-rhui-debug-rpms
+  - rhel-9-for-x86_64-appstream-rhui-source-rpms
+  - rhel-9-for-x86_64-appstream-rhui-debug-rpms
+  - rhel-9-for-x86_64-baseos-rhui-source-rpms
+  - rhel-9-for-x86_64-baseos-rhui-debug-rpms
+  - rhel-9-for-x86_64-supplementary-rhui-source-rpms
+  - rhel-9-for-x86_64-supplementary-rhui-debug-rpms
+  - rhel-9-for-x86_64-highavailability-source-rhui-rpms
+  - rhel-9-for-x86_64-highavailability-debug-rhui-rpms
+  - rhel-9-for-x86_64-extensions-rhui-debug-rpms
+  - rhel-9-for-x86_64-extensions-rhui-rpms
+  - rhel-9-for-x86_64-extensions-rhui-source-rpms
+
+repo_ids_for_sync:
+  - rhel-9-for-x86_64-appstream-rhui-rpms-9
+  - rhel-9-for-x86_64-baseos-rhui-rpms-9
+  - rhel-9-for-x86_64-supplementary-rhui-rpms-9
+  - rhel-9-for-x86_64-highavailability-rhui-rpms-9
+  - codeready-builder-for-rhel-9-x86_64-rhui-rpms-9
+  - codeready-builder-for-rhel-9-x86_64-rhui-debug-rpms-9
+  - codeready-builder-for-rhel-9-x86_64-rhui-source-rpms-9
+  - rhel-9-for-x86_64-appstream-rhui-debug-rpms-9
+  - rhel-9-for-x86_64-appstream-rhui-source-rpms-9
+  - rhel-9-for-x86_64-baseos-rhui-debug-rpms-9
+  - rhel-9-for-x86_64-baseos-rhui-source-rpms-9
+  - rhel-9-for-x86_64-supplementary-rhui-debug-rpms-9
+  - rhel-9-for-x86_64-supplementary-rhui-source-rpms-9
+  - rhel-9-for-x86_64-highavailability-source-rhui-rpms-9
+  - rhel-9-for-x86_64-highavailability-debug-rhui-rpms-9
+  - rhel-9-for-x86_64-extensions-rhui-debug-rpms-9
+  - rhel-9-for-x86_64-extensions-rhui-rpms-9
+  - rhel-9-for-x86_64-extensions-rhui-source-rpms-9
