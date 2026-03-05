@@ -1,0 +1,65 @@
+name: Red Hat Enterprise Linux 8 on x86_64 and ARM64
+
+repo_labels:
+  - rhel-8-for-aarch64-appstream-debug-rhui-rpms
+  - rhel-8-for-aarch64-appstream-rhui-rpms
+  - rhel-8-for-aarch64-appstream-source-rhui-rpms
+  - rhel-8-for-x86_64-appstream-rhui-debug-rpms
+  - rhel-8-for-x86_64-appstream-rhui-rpms
+  - rhel-8-for-x86_64-appstream-rhui-source-rpms
+  - rhel-8-for-aarch64-baseos-debug-rhui-rpms
+  - rhel-8-for-aarch64-baseos-rhui-rpms
+  - rhel-8-for-aarch64-baseos-source-rhui-rpms
+  - rhel-8-for-x86_64-baseos-rhui-debug-rpms
+  - rhel-8-for-x86_64-baseos-rhui-rpms
+  - rhel-8-for-x86_64-baseos-rhui-source-rpms
+  - rhel-8-for-x86_64-supplementary-rhui-debug-rpms
+  - rhel-8-for-x86_64-supplementary-rhui-rpms
+  - rhel-8-for-x86_64-supplementary-rhui-source-rpms
+  - rhel-8-for-aarch64-supplementary-debug-rhui-rpms
+  - rhel-8-for-aarch64-supplementary-rhui-rpms
+  - rhel-8-for-aarch64-supplementary-source-rhui-rpms
+  - codeready-builder-for-rhel-8-aarch64-rhui-debug-rpms
+  - codeready-builder-for-rhel-8-aarch64-rhui-rpms
+  - codeready-builder-for-rhel-8-aarch64-rhui-source-rpms
+  - codeready-builder-for-rhel-8-x86_64-rhui-debug-rpms
+  - codeready-builder-for-rhel-8-x86_64-rhui-rpms
+  - codeready-builder-for-rhel-8-x86_64-rhui-source-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-source-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-source-rpms
+
+repo_ids_for_sync:
+  - rhel-8-for-aarch64-appstream-rhui-rpms-8
+  - rhel-8-for-aarch64-appstream-debug-rhui-rpms-8
+  - rhel-8-for-aarch64-appstream-source-rhui-rpms-8
+  - rhel-8-for-x86_64-appstream-rhui-rpms-8
+  - rhel-8-for-x86_64-appstream-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-appstream-rhui-source-rpms-8
+  - rhel-8-for-aarch64-baseos-rhui-rpms-8
+  - rhel-8-for-aarch64-baseos-debug-rhui-rpms-8
+  - rhel-8-for-aarch64-baseos-source-rhui-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-source-rpms-8
+  - rhel-8-for-x86_64-supplementary-rhui-rpms-8
+  - rhel-8-for-x86_64-supplementary-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-supplementary-rhui-source-rpms-8
+  - rhel-8-for-aarch64-supplementary-rhui-rpms-8
+  - rhel-8-for-aarch64-supplementary-debug-rhui-rpms-8
+  - rhel-8-for-aarch64-supplementary-source-rhui-rpms-8
+  - codeready-builder-for-rhel-8-x86_64-rhui-rpms-8
+  - codeready-builder-for-rhel-8-x86_64-rhui-debug-rpms-8
+  - codeready-builder-for-rhel-8-x86_64-rhui-source-rpms-8
+  - codeready-builder-for-rhel-8-aarch64-rhui-rpms-8
+  - codeready-builder-for-rhel-8-aarch64-rhui-debug-rpms-8
+  - codeready-builder-for-rhel-8-aarch64-rhui-source-rpms-8
+  - ansible-2-for-rhel-8-aarch64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-source-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-source-rpms
