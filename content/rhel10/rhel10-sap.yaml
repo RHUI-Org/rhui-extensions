@@ -1,0 +1,41 @@
+name: Red Hat Enterprise Linux 10 SAP for e4s on x86_64
+
+repo_labels:
+  - rhel-10-for-x86_64-appstream-e4s-rhui-debug-rpms
+  - rhel-10-for-x86_64-appstream-e4s-rhui-rpms
+  - rhel-10-for-x86_64-appstream-e4s-rhui-source-rpms
+  - rhel-10-for-x86_64-baseos-e4s-rhui-debug-rpms
+  - rhel-10-for-x86_64-baseos-e4s-rhui-rpms
+  - rhel-10-for-x86_64-baseos-e4s-rhui-source-rpms
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-debug-rpms
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-rpms
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-source-rpms
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-rpms
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-source-rpms
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-debug-rpms
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-rpms
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-source-rpms
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms
+  - rhel-10-for-x86_64-extensions-rhui-rpms
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms
+
+repo_ids_for_sync:
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10
+  - rhel-10-for-x86_64-extensions-rhui-rpms-10
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms-10
+  - rhel-10-for-x86_64-appstream-e4s-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-appstream-e4s-rhui-rpms-10.0
+  - rhel-10-for-x86_64-appstream-e4s-rhui-source-rpms-10.0
+  - rhel-10-for-x86_64-baseos-e4s-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-baseos-e4s-rhui-rpms-10.0
+  - rhel-10-for-x86_64-baseos-e4s-rhui-source-rpms-10.0
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-rpms-10.0
+  - rhel-10-for-x86_64-highavailability-e4s-rhui-source-rpms-10.0
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-rpms-10.0
+  - rhel-10-for-x86_64-sap-netweaver-e4s-rhui-source-rpms-10.0
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-rpms-10.0
+  - rhel-10-for-x86_64-sap-solutions-e4s-rhui-source-rpms-10.0

@@ -1,0 +1,65 @@
+name: Red Hat Enterprise Linux 10 on x86_64 and ARM64
+
+repo_labels:
+  - rhel-10-for-x86_64-appstream-rhui-rpms
+  - rhel-10-for-x86_64-baseos-rhui-rpms
+  - rhel-10-for-x86_64-supplementary-rhui-rpms
+  - codeready-builder-for-rhel-10-x86_64-rhui-rpms
+  - codeready-builder-for-rhel-10-aarch64-rhui-rpms
+  - codeready-builder-for-rhel-10-x86_64-rhui-debug-rpms
+  - codeready-builder-for-rhel-10-aarch64-rhui-debug-rpms
+  - codeready-builder-for-rhel-10-x86_64-rhui-source-rpms
+  - codeready-builder-for-rhel-10-aarch64-rhui-source-rpms
+  - rhel-10-for-aarch64-baseos-rhui-rpms
+  - rhel-10-for-aarch64-appstream-rhui-rpms
+  - rhel-10-for-aarch64-supplementary-rhui-rpms
+  - rhel-10-for-x86_64-appstream-rhui-debug-rpms
+  - rhel-10-for-x86_64-baseos-rhui-debug-rpms
+  - rhel-10-for-x86_64-supplementary-rhui-debug-rpms
+  - rhel-10-for-aarch64-appstream-debug-rhui-rpms
+  - rhel-10-for-aarch64-baseos-debug-rhui-rpms
+  - rhel-10-for-aarch64-supplementary-debug-rhui-rpms
+  - rhel-10-for-x86_64-appstream-rhui-source-rpms
+  - rhel-10-for-x86_64-baseos-rhui-source-rpms
+  - rhel-10-for-x86_64-supplementary-rhui-source-rpms
+  - rhel-10-for-aarch64-appstream-source-rhui-rpms
+  - rhel-10-for-aarch64-baseos-source-rhui-rpms
+  - rhel-10-for-aarch64-supplementary-source-rhui-rpms
+  - rhel-10-for-aarch64-extensions-rhui-rpms
+  - rhel-10-for-aarch64-extensions-rhui-source-rpms
+  - rhel-10-for-aarch64-extensions-rhui-debug-rpms
+  - rhel-10-for-x86_64-extensions-rhui-rpms
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms
+
+repo_ids_for_sync:
+  - rhel-10-for-aarch64-appstream-rhui-rpms-10
+  - rhel-10-for-x86_64-appstream-rhui-rpms-10
+  - rhel-10-for-aarch64-baseos-rhui-rpms-10
+  - rhel-10-for-x86_64-baseos-rhui-rpms-10
+  - rhel-10-for-aarch64-supplementary-rhui-rpms-10
+  - rhel-10-for-x86_64-supplementary-rhui-rpms-10
+  - codeready-builder-for-rhel-10-aarch64-rhui-rpms-10
+  - codeready-builder-for-rhel-10-x86_64-rhui-rpms-10
+  - codeready-builder-for-rhel-10-aarch64-rhui-debug-rpms-10
+  - codeready-builder-for-rhel-10-aarch64-rhui-source-rpms-10
+  - codeready-builder-for-rhel-10-x86_64-rhui-debug-rpms-10
+  - codeready-builder-for-rhel-10-x86_64-rhui-source-rpms-10
+  - rhel-10-for-aarch64-appstream-source-rhui-rpms-10
+  - rhel-10-for-aarch64-appstream-debug-rhui-rpms-10
+  - rhel-10-for-aarch64-baseos-debug-rhui-rpms-10
+  - rhel-10-for-aarch64-baseos-source-rhui-rpms-10
+  - rhel-10-for-aarch64-supplementary-debug-rhui-rpms-10
+  - rhel-10-for-aarch64-supplementary-source-rhui-rpms-10
+  - rhel-10-for-x86_64-appstream-rhui-debug-rpms-10
+  - rhel-10-for-x86_64-baseos-rhui-debug-rpms-10
+  - rhel-10-for-x86_64-appstream-rhui-source-rpms-10
+  - rhel-10-for-x86_64-baseos-rhui-source-rpms-10
+  - rhel-10-for-x86_64-supplementary-rhui-debug-rpms-10
+  - rhel-10-for-x86_64-supplementary-rhui-source-rpms-10
+  - rhel-10-for-aarch64-extensions-rhui-debug-rpms-10
+  - rhel-10-for-aarch64-extensions-rhui-rpms-10
+  - rhel-10-for-aarch64-extensions-rhui-source-rpms-10
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10
+  - rhel-10-for-x86_64-extensions-rhui-rpms-10
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms-10
