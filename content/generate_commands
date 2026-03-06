@@ -77,8 +77,8 @@ filename = os.path.splitext(os.path.basename(input_path))[0]
 
 if generate_sync_command:
     print(
-        f"rhui-manager --noninteractive repo add_by_repo"
-        f"  --file {input_path}"
+        f"rhui-manager --noninteractive repo add_by_file"
+        f" --file {input_path}"
     )
     print()
 

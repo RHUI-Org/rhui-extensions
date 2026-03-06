@@ -34,7 +34,7 @@ In subdirectories named after RHEL versions you can find a number of those YAML 
 
 ```text
 Warning: There is no rhui-extensions.conf in this directory or in ~/ directory. Consider creating one based on rhui-extensions.conf-example from repository root.
-rhui-manager --noninteractive repo add_by_repo  --file rhel8/rhel8.yaml
+rhui-manager --noninteractive repo add_by_file --file rhel8/rhel8.yaml
 
 rhui-manager --username admin --password admin client cert --name rhel8 --days 730 --dir /tmp --repo_label rhel-8-for-x86_64-appstream-beta-rhui-rpms,rhel-8-for-aarch64-supplementary-eus-rhui-rpms,codeready-builder-for-rhel-8-aarch64-eus-rhui-rpms,rhel-8-for-x86_64-supplementary-eus-rhui-rpms,rhel-8-for-aarch64-baseos-beta-rhui-rpms,rhel-8-for-aarch64-supplementary-rhui-rpms,rhel-8-for-aarch64-supplementary-beta-rhui-rpms,codeready-builder-for-rhel-8-x86_64-eus-rhui-rpms,rhel-8-for-x86_64-appstream-rhui-rpms,codeready-builder-for-rhel-8-aarch64-rhui-rpms,rhel-8-for-x86_64-appstream-eus-rhui-rpms,rhel-8-for-aarch64-appstream-rhui-rpms,rhel-8-for-aarch64-baseos-rhui-rpms,rhel-8-for-aarch64-appstream-eus-rhui-rpms,rhel-8-for-aarch64-baseos-eus-rhui-rpms,rhel-8-for-aarch64-appstream-beta-rhui-rpms,rhel-8-for-x86_64-baseos-beta-rhui-rpms,codeready-builder-for-rhel-8-x86_64-rhui-rpms,rhel-8-for-x86_64-baseos-eus-rhui-rpms,ansible-2-for-rhel-8-aarch64-rhui-rpms,ansible-2-for-rhel-8-x86_64-rhui-rpms,rhel-8-for-x86_64-supplementary-rhui-rpms,rhel-8-for-x86_64-baseos-rhui-rpms
 
