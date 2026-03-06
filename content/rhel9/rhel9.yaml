@@ -32,7 +32,7 @@ repo_labels:
   - rhel-9-for-x86_64-extensions-rhui-source-rpms
   - rhel-9-for-x86_64-extensions-rhui-debug-rpms
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-9-for-aarch64-appstream-rhui-rpms-9
   - rhel-9-for-x86_64-appstream-rhui-rpms-9
   - rhel-9-for-aarch64-baseos-rhui-rpms-9

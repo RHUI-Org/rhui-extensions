@@ -32,7 +32,7 @@ repo_labels:
   - ansible-2-for-rhel-8-x86_64-rhui-rpms
   - ansible-2-for-rhel-8-x86_64-rhui-source-rpms
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-8-for-aarch64-appstream-rhui-rpms-8
   - rhel-8-for-aarch64-appstream-debug-rhui-rpms-8
   - rhel-8-for-aarch64-appstream-source-rhui-rpms-8

@@ -18,7 +18,7 @@ repo_labels:
   - rhel-8-for-x86_64-sap-solutions-e4s-rhui-source-rpms
 
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-8-for-x86_64-highavailability-e4s-rhui-rpms-8.8
   - rhel-8-for-x86_64-sap-solutions-e4s-rhui-rpms-8.8
   - rhel-8-for-x86_64-baseos-e4s-rhui-rpms-8.8

@@ -21,7 +21,7 @@ repo_labels:
   - rhel-9-for-x86_64-extensions-rhui-source-rpms
 
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-9-for-x86_64-extensions-rhui-debug-rpms-9
   - rhel-9-for-x86_64-extensions-rhui-rpms-9
   - rhel-9-for-x86_64-extensions-rhui-source-rpms-9
@@ -70,3 +70,18 @@ repo_ids_for_sync:
   - rhel-9-for-x86_64-appstream-e4s-rhui-debug-rpms-9.4
   - rhel-9-for-x86_64-appstream-e4s-rhui-rpms-9.4
   - rhel-9-for-x86_64-appstream-e4s-rhui-source-rpms-9.4
+  - rhel-9-for-x86_64-sap-solutions-e4s-rhui-debug-rpms-9.6
+  - rhel-9-for-x86_64-sap-solutions-e4s-rhui-rpms-9.6
+  - rhel-9-for-x86_64-sap-solutions-e4s-rhui-source-rpms-9.6
+  - rhel-9-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms-9.6
+  - rhel-9-for-x86_64-sap-netweaver-e4s-rhui-rpms-9.6
+  - rhel-9-for-x86_64-sap-netweaver-e4s-rhui-source-rpms-9.6
+  - rhel-9-for-x86_64-highavailability-e4s-rhui-debug-rpms-9.6
+  - rhel-9-for-x86_64-highavailability-e4s-rhui-rpms-9.6
+  - rhel-9-for-x86_64-highavailability-e4s-rhui-source-rpms-9.6
+  - rhel-9-for-x86_64-baseos-e4s-rhui-debug-rpms-9.6
+  - rhel-9-for-x86_64-baseos-e4s-rhui-rpms-9.6
+  - rhel-9-for-x86_64-baseos-e4s-rhui-source-rpms-9.6
+  - rhel-9-for-x86_64-appstream-e4s-rhui-debug-rpms-9.6
+  - rhel-9-for-x86_64-appstream-e4s-rhui-rpms-9.6
+  - rhel-9-for-x86_64-appstream-e4s-rhui-source-rpms-9.6
