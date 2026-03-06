@@ -10,16 +10,12 @@ It is therefor quite possible - even probable - that it will be updated over tim
 While RHUI 4 and 5 differ significantly in the way they are deployed - RHUI4 runs directly on metal, RHUI5 runs in container - functionality and commands remain the same.
 However if you are on RHUA node in RHUI 5, you first need to get into container using:
 ```bash
-rhua bash
-```
-and then run the commands.
-Alternatively run each of the commands with prefix
-```bash
 rhua
 ```
-For example:
+and then run the commands.
+Alternatively run each of the commands with prefix:
 ```bash
-rhua rhui-manager --username admin --password admin repo sync_all
+rhua rhui-manager --noninteractive repo sync_all
 ```
 
 ### How to use
@@ -38,7 +34,7 @@ In subdirectories named after RHEL versions you can find a number of those YAML 
 
 ```text
 Warning: There is no rhui-extensions.conf in this directory or in ~/ directory. Consider creating one based on rhui-extensions.conf-example from repository root.
-rhui-manager --username admin --password admin repo add_by_repo --repo_ids rhel-8-for-x86_64-appstream-rhui-rpms-8,rhel-8-for-x86_64-baseos-rhui-rpms-8,rhel-8-for-x86_64-supplementary-rhui-rpms-8,codeready-builder-for-rhel-8-x86_64-rhui-rpms-8,codeready-builder-for-rhel-8-aarch64-rhui-rpms-8,rhel-8-for-aarch64-baseos-rhui-rpms-8,rhel-8-for-aarch64-appstream-rhui-rpms-8,rhel-8-for-aarch64-supplementary-rhui-rpms-8,rhel-8-for-aarch64-appstream-debug-rhui-rpms-8,rhel-8-for-aarch64-appstream-source-rhui-rpms-8,rhel-8-for-aarch64-baseos-debug-rhui-rpms-8,rhel-8-for-aarch64-baseos-source-rhui-rpms-8,rhel-8-for-aarch64-supplementary-debug-rhui-rpms-8,rhel-8-for-aarch64-supplementary-source-rhui-rpms-8,rhel-8-for-x86_64-appstream-rhui-debug-rpms-8,rhel-8-for-x86_64-appstream-rhui-source-rpms-8,rhel-8-for-x86_64-baseos-rhui-debug-rpms-8,rhel-8-for-x86_64-baseos-rhui-source-rpms-8,rhel-8-for-x86_64-supplementary-rhui-debug-rpms-8,rhel-8-for-x86_64-supplementary-rhui-source-rpms-8,codeready-builder-for-rhel-8-aarch64-rhui-debug-rpms-8,codeready-builder-for-rhel-8-aarch64-rhui-source-rpms-8,codeready-builder-for-rhel-8-x86_64-rhui-debug-rpms-8,codeready-builder-for-rhel-8-x86_64-rhui-source-rpms-8,ansible-2-for-rhel-8-aarch64-rhui-debug-rpms,ansible-2-for-rhel-8-aarch64-rhui-rpms,ansible-2-for-rhel-8-aarch64-rhui-source-rpms,ansible-2-for-rhel-8-x86_64-rhui-debug-rpms,ansible-2-for-rhel-8-x86_64-rhui-rpms,ansible-2-for-rhel-8-x86_64-rhui-source-rpms
+rhui-manager --noninteractive repo add_by_repo  --file rhel8/rhel8.yaml
 
 rhui-manager --username admin --password admin client cert --name rhel8 --days 730 --dir /tmp --repo_label rhel-8-for-x86_64-appstream-beta-rhui-rpms,rhel-8-for-aarch64-supplementary-eus-rhui-rpms,codeready-builder-for-rhel-8-aarch64-eus-rhui-rpms,rhel-8-for-x86_64-supplementary-eus-rhui-rpms,rhel-8-for-aarch64-baseos-beta-rhui-rpms,rhel-8-for-aarch64-supplementary-rhui-rpms,rhel-8-for-aarch64-supplementary-beta-rhui-rpms,codeready-builder-for-rhel-8-x86_64-eus-rhui-rpms,rhel-8-for-x86_64-appstream-rhui-rpms,codeready-builder-for-rhel-8-aarch64-rhui-rpms,rhel-8-for-x86_64-appstream-eus-rhui-rpms,rhel-8-for-aarch64-appstream-rhui-rpms,rhel-8-for-aarch64-baseos-rhui-rpms,rhel-8-for-aarch64-appstream-eus-rhui-rpms,rhel-8-for-aarch64-baseos-eus-rhui-rpms,rhel-8-for-aarch64-appstream-beta-rhui-rpms,rhel-8-for-x86_64-baseos-beta-rhui-rpms,codeready-builder-for-rhel-8-x86_64-rhui-rpms,rhel-8-for-x86_64-baseos-eus-rhui-rpms,ansible-2-for-rhel-8-aarch64-rhui-rpms,ansible-2-for-rhel-8-x86_64-rhui-rpms,rhel-8-for-x86_64-supplementary-rhui-rpms,rhel-8-for-x86_64-baseos-rhui-rpms
 
@@ -51,5 +47,5 @@ rhui-manager --username admin --password admin repo sync_all
 
 ## rhui-extensions.conf
 You might have noticed warning in previous example output. Generate command will point you to **rhui-extensions.conf-example** file that you can find right next to this README.md file - we suggest you use it.
-Just rename it to **rhui-extensions.conf**, change values inside and place it into your user's directory.
-From that moment generated commands will be tuned for your needs and you can use them as cut and paste.
+Just rename it to **rhui-extensions.conf**, change value for expiration inside and place it into your user's directory.
+From that moment generated command for certificate will be tuned for your needs and you can use it as cut and paste.
