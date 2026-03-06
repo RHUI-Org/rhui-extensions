@@ -20,7 +20,7 @@ repo_labels:
   - rhel-8-for-x86_64-highavailability-rhui-rpms
   - rhel-8-for-x86_64-highavailability-source-rhui-rpms
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-8-for-x86_64-appstream-rhui-rpms-8
   - rhel-8-for-x86_64-appstream-rhui-debug-rpms-8
   - rhel-8-for-x86_64-appstream-rhui-source-rpms-8

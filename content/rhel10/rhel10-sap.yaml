@@ -20,7 +20,7 @@ repo_labels:
   - rhel-10-for-x86_64-extensions-rhui-rpms
   - rhel-10-for-x86_64-extensions-rhui-source-rpms
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10
   - rhel-10-for-x86_64-extensions-rhui-rpms-10
   - rhel-10-for-x86_64-extensions-rhui-source-rpms-10

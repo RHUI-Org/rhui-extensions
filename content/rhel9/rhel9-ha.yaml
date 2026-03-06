@@ -20,7 +20,7 @@ repo_labels:
   - rhel-9-for-x86_64-extensions-rhui-rpms
   - rhel-9-for-x86_64-extensions-rhui-source-rpms
 
-repo_ids_for_sync:
+repo_ids:
   - rhel-9-for-x86_64-appstream-rhui-rpms-9
   - rhel-9-for-x86_64-baseos-rhui-rpms-9
   - rhel-9-for-x86_64-supplementary-rhui-rpms-9

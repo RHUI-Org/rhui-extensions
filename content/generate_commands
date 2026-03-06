@@ -5,8 +5,6 @@ import sys
 import os
 import configparser
 
-rhui_user = "admin"
-rhui_pass = "admin"
 cert_expiration_in_days = "730"
 
 
@@ -15,8 +13,6 @@ def read_config(config_path):
     config = configparser.ConfigParser()
     config.read(config_path)
     if "rhui" in config:
-        rhui_user = config["rhui"].get("username", rhui_user)
-        rhui_pass = config["rhui"].get("password", rhui_pass)
         cert_expiration_in_days = config["rhui"].get("cert_expiration", cert_expiration_in_days)
 
 def error(msg):
@@ -68,12 +64,12 @@ if not isinstance(labels, list):
 
 
 generate_sync_command = True
-repo_ids = data.get("repo_ids_for_sync")
+repo_ids = data.get("repo_ids")
 if repo_ids is None:
-    warn("YAML missing key: repo_ids_for_sync - skipping")
+    warn("YAML missing key: repo_ids - skipping")
     generate_sync_command = False
 if not isinstance(repo_ids, list):
-    warn("repo_ids_for_sync is not a list - skipping")
+    warn("repo_ids is not a list - skipping")
     generate_sync_command = False
 
 
@@ -81,13 +77,13 @@ filename = os.path.splitext(os.path.basename(input_path))[0]
 
 if generate_sync_command:
     print(
-        f"rhui-manager --username {rhui_user} --password {rhui_pass} repo add_by_repo"
-        f" --repo_ids {','.join(repo_ids)}"
+        f"rhui-manager --noninteractive repo add_by_file"
+        f" --file {input_path}"
     )
     print()
 
 print(
-    f"rhui-manager --username {rhui_user} --password {rhui_pass} client cert"
+    f"rhui-manager --noninteractive client cert"
     f" --name {filename}"
     f" --days {cert_expiration_in_days}"
     " --dir /tmp"
@@ -96,7 +92,7 @@ print(
 print()
 
 print(
-    f"rhui-manager --username {rhui_user} --password {rhui_pass} client rpm"
+    f"rhui-manager --noninteractive client rpm"
     f" --private_key {filename}.key"
     f" --entitlement_cert {filename}.crt"
     f" --dir /tmp --rpm_name {filename}"
@@ -106,5 +102,5 @@ print()
 if generate_sync_command:
     print("# Syncing of ALL repos")
     print("# !!! NOTE !!! If you plan to add multiple RHEL versions/variants, run this step only after you add all repos.")
-    print(f"rhui-manager --username {rhui_user} --password {rhui_pass} repo sync_all")
+    print(f"rhui-manager --noninteractive repo sync_all")
 
