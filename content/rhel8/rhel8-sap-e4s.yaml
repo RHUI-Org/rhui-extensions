@@ -16,6 +16,21 @@ repo_labels:
   - rhel-8-for-x86_64-sap-solutions-e4s-rhui-debug-rpms
   - rhel-8-for-x86_64-sap-solutions-e4s-rhui-rpms
   - rhel-8-for-x86_64-sap-solutions-e4s-rhui-source-rpms
+  - rhel-8-for-x86_64-appstream-rhui-rpms
+  - rhel-8-for-x86_64-appstream-rhui-debug-rpms
+  - rhel-8-for-x86_64-appstream-rhui-source-rpms
+  - rhel-8-for-x86_64-baseos-rhui-rpms
+  - rhel-8-for-x86_64-baseos-rhui-debug-rpms
+  - rhel-8-for-x86_64-baseos-rhui-source-rpms
+  - rhel-8-for-x86_64-highavailability-rhui-rpms
+  - rhel-8-for-x86_64-highavailability-source-rhui-rpms
+  - rhel-8-for-x86_64-highavailability-debug-rhui-rpms
+  - rhel-8-for-x86_64-sap-netweaver-rhui-rpms
+  - rhel-8-for-x86_64-sap-netweaver-rhui-debug-rpms
+  - rhel-8-for-x86_64-sap-netweaver-rhui-source-rpms
+  - rhel-8-for-x86_64-sap-solutions-rhui-debug-rpms
+  - rhel-8-for-x86_64-sap-solutions-rhui-source-rpms
+  - rhel-8-for-x86_64-sap-solutions-rhui-rpms
 
 
 repo_ids:
@@ -49,33 +64,18 @@ repo_ids:
   - rhel-8-for-x86_64-appstream-e4s-rhui-source-rpms-8.6
   - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms-8.6
   - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-source-rpms-8.6
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-rpms-8.5
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-rpms-8.5
-  - rhel-8-for-x86_64-baseos-e4s-rhui-rpms-8.5
-  - rhel-8-for-x86_64-appstream-e4s-rhui-rpms-8.5
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-rpms-8.5
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-debug-rpms-8.5
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-source-rpms-8.5
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-debug-rpms-8.5
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-source-rpms-8.5
-  - rhel-8-for-x86_64-baseos-e4s-rhui-debug-rpms-8.5
-  - rhel-8-for-x86_64-baseos-e4s-rhui-source-rpms-8.5
-  - rhel-8-for-x86_64-appstream-e4s-rhui-debug-rpms-8.5
-  - rhel-8-for-x86_64-appstream-e4s-rhui-source-rpms-8.5
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms-8.5
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-source-rpms-8.5
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-rpms-8.4
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-rpms-8.4
-  - rhel-8-for-x86_64-baseos-e4s-rhui-rpms-8.4
-  - rhel-8-for-x86_64-appstream-e4s-rhui-rpms-8.4
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-rpms-8.4
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-debug-rpms-8.4
-  - rhel-8-for-x86_64-highavailability-e4s-rhui-source-rpms-8.4
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-debug-rpms-8.4
-  - rhel-8-for-x86_64-sap-solutions-e4s-rhui-source-rpms-8.4
-  - rhel-8-for-x86_64-baseos-e4s-rhui-debug-rpms-8.4
-  - rhel-8-for-x86_64-baseos-e4s-rhui-source-rpms-8.4
-  - rhel-8-for-x86_64-appstream-e4s-rhui-debug-rpms-8.4
-  - rhel-8-for-x86_64-appstream-e4s-rhui-source-rpms-8.4
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-debug-rpms-8.4
-  - rhel-8-for-x86_64-sap-netweaver-e4s-rhui-source-rpms-8.4
+  - rhel-8-for-x86_64-appstream-rhui-rpms-8
+  - rhel-8-for-x86_64-appstream-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-appstream-rhui-source-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-baseos-rhui-source-rpms-8
+  - rhel-8-for-x86_64-highavailability-rhui-rpms-8
+  - rhel-8-for-x86_64-highavailability-source-rhui-rpms-8
+  - rhel-8-for-x86_64-highavailability-debug-rhui-rpms-8
+  - rhel-8-for-x86_64-sap-netweaver-rhui-rpms-8
+  - rhel-8-for-x86_64-sap-netweaver-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-sap-netweaver-rhui-source-rpms-8
+  - rhel-8-for-x86_64-sap-solutions-rhui-debug-rpms-8
+  - rhel-8-for-x86_64-sap-solutions-rhui-source-rpms-8
+  - rhel-8-for-x86_64-sap-solutions-rhui-rpms-8
