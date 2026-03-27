@@ -25,6 +25,12 @@ repo_labels:
   - rhel-9-for-aarch64-appstream-source-rhui-rpms
   - rhel-9-for-aarch64-baseos-source-rhui-rpms
   - rhel-9-for-aarch64-supplementary-source-rhui-rpms
+  - rhel-9-for-aarch64-extensions-rhui-rpms
+  - rhel-9-for-aarch64-extensions-rhui-source-rpms
+  - rhel-9-for-aarch64-extensions-rhui-debug-rpms
+  - rhel-9-for-x86_64-extensions-rhui-rpms
+  - rhel-9-for-x86_64-extensions-rhui-source-rpms
+  - rhel-9-for-x86_64-extensions-rhui-debug-rpms
   - rhel-10-for-x86_64-appstream-rhui-rpms
   - rhel-10-for-x86_64-baseos-rhui-rpms
   - rhel-10-for-x86_64-supplementary-rhui-rpms
@@ -49,6 +55,12 @@ repo_labels:
   - rhel-10-for-aarch64-appstream-source-rhui-rpms
   - rhel-10-for-aarch64-baseos-source-rhui-rpms
   - rhel-10-for-aarch64-supplementary-source-rhui-rpms
+  - rhel-10-for-aarch64-extensions-rhui-rpms
+  - rhel-10-for-aarch64-extensions-rhui-source-rpms
+  - rhel-10-for-aarch64-extensions-rhui-debug-rpms
+  - rhel-10-for-x86_64-extensions-rhui-rpms
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms
 
 repo_ids:
   - rhel-10-for-aarch64-appstream-rhui-rpms-10.1

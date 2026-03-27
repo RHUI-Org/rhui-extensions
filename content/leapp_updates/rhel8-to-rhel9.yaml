@@ -25,6 +25,12 @@ repo_labels:
   - rhel-9-for-aarch64-appstream-source-rhui-rpms
   - rhel-9-for-aarch64-baseos-source-rhui-rpms
   - rhel-9-for-aarch64-supplementary-source-rhui-rpms
+  - rhel-9-for-aarch64-extensions-rhui-rpms
+  - rhel-9-for-aarch64-extensions-rhui-source-rpms
+  - rhel-9-for-aarch64-extensions-rhui-debug-rpms
+  - rhel-9-for-x86_64-extensions-rhui-rpms
+  - rhel-9-for-x86_64-extensions-rhui-source-rpms
+  - rhel-9-for-x86_64-extensions-rhui-debug-rpms
   - rhel-8-for-aarch64-appstream-debug-rhui-rpms
   - rhel-8-for-aarch64-appstream-rhui-rpms
   - rhel-8-for-aarch64-appstream-source-rhui-rpms
@@ -49,6 +55,12 @@ repo_labels:
   - codeready-builder-for-rhel-8-x86_64-rhui-debug-rpms
   - codeready-builder-for-rhel-8-x86_64-rhui-rpms
   - codeready-builder-for-rhel-8-x86_64-rhui-source-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-source-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-source-rpms
 
 repo_ids:
   - rhel-9-for-aarch64-appstream-rhui-rpms-9.7

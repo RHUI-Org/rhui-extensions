@@ -22,6 +22,9 @@ repo_labels:
   - rhel-7-server-devtools-debug-rhui-rpms
   - rhel-7-server-devtools-rhui-rpms
   - rhel-7-server-devtools-source-rhui-rpms
+  - rhel-7-server-dotnet-rhui-debug-rpms,
+  - rhel-7-server-dotnet-rhui-rpms,
+  - rhel-7-server-dotnet-rhui-source-rpms,
   - rhel-8-for-aarch64-appstream-debug-rhui-rpms
   - rhel-8-for-aarch64-appstream-rhui-rpms
   - rhel-8-for-aarch64-appstream-source-rhui-rpms
@@ -46,6 +49,12 @@ repo_labels:
   - codeready-builder-for-rhel-8-x86_64-rhui-debug-rpms
   - codeready-builder-for-rhel-8-x86_64-rhui-rpms
   - codeready-builder-for-rhel-8-x86_64-rhui-source-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-rpms
+  - ansible-2-for-rhel-8-aarch64-rhui-source-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-debug-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-rpms
+  - ansible-2-for-rhel-8-x86_64-rhui-source-rpms
 
 
 repo_ids:
