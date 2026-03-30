@@ -28,6 +28,9 @@ repo_labels:
   - rhel-9-for-x86_64-extensions-rhui-rpms
   - rhel-9-for-x86_64-extensions-rhui-source-rpms
   - rhel-9-for-x86_64-extensions-rhui-debug-rpms
+  - rhel-9-for-aarch64-extensions-rhui-debug-rpms
+  - rhel-9-for-aarch64-extensions-rhui-rpms
+  - rhel-9-for-aarch64-extensions-rhui-source-rpms
 
 repo_ids:
   - rhel-9-for-aarch64-extensions-rhui-debug-rpms-9
