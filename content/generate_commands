@@ -93,9 +93,9 @@ print()
 
 print(
     f"rhui-manager --noninteractive client rpm"
-    f" --private_key {filename}.key"
-    f" --entitlement_cert {filename}.crt"
-    f" --dir /tmp --rpm_name {filename}"
+    f" --private_key /tmp/{filename}.key"
+    f" --entitlement_cert /tmp/{filename}.crt"
+    f" --dir /root --rpm_name {filename}"
 )
 print()
 
