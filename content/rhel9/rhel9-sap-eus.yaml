@@ -85,3 +85,18 @@ repo_ids:
   - rhel-9-for-x86_64-appstream-eus-rhui-debug-rpms-9.6
   - rhel-9-for-x86_64-appstream-eus-rhui-rpms-9.6
   - rhel-9-for-x86_64-appstream-eus-rhui-source-rpms-9.6
+  - rhel-9-for-x86_64-sap-solutions-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-sap-solutions-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-sap-solutions-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-sap-netweaver-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-sap-netweaver-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-sap-netweaver-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-highavailability-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-highavailability-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-highavailability-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-source-rpms-9.8

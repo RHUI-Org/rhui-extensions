@@ -63,3 +63,27 @@ repo_ids:
   - rhel-10-for-aarch64-supplementary-eus-rhui-debug-rpms-10.0
   - rhel-10-for-aarch64-supplementary-eus-rhui-rpms-10.0
   - rhel-10-for-aarch64-supplementary-eus-rhui-source-rpms-10.0
+  - codeready-builder-for-rhel-10-x86_64-eus-rhui-debug-rpms-10.2
+  - codeready-builder-for-rhel-10-x86_64-eus-rhui-rpms-10.2
+  - codeready-builder-for-rhel-10-x86_64-eus-rhui-source-rpms-10.2
+  - rhel-10-for-x86_64-appstream-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-x86_64-appstream-eus-rhui-rpms-10.2
+  - rhel-10-for-x86_64-appstream-eus-rhui-source-rpms-10.2
+  - rhel-10-for-x86_64-baseos-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-x86_64-baseos-eus-rhui-rpms-10.2
+  - rhel-10-for-x86_64-baseos-eus-rhui-source-rpms-10.2
+  - rhel-10-for-x86_64-supplementary-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-x86_64-supplementary-eus-rhui-rpms-10.2
+  - rhel-10-for-x86_64-supplementary-eus-rhui-source-rpms-10.2
+  - codeready-builder-for-rhel-10-aarch64-eus-rhui-debug-rpms-10.2
+  - codeready-builder-for-rhel-10-aarch64-eus-rhui-rpms-10.2
+  - codeready-builder-for-rhel-10-aarch64-eus-rhui-source-rpms-10.2
+  - rhel-10-for-aarch64-appstream-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-aarch64-appstream-eus-rhui-rpms-10.2
+  - rhel-10-for-aarch64-appstream-eus-rhui-source-rpms-10.2
+  - rhel-10-for-aarch64-baseos-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-aarch64-baseos-eus-rhui-rpms-10.2
+  - rhel-10-for-aarch64-baseos-eus-rhui-source-rpms-10.2
+  - rhel-10-for-aarch64-supplementary-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-aarch64-supplementary-eus-rhui-rpms-10.2
+  - rhel-10-for-aarch64-supplementary-eus-rhui-source-rpms-10.2

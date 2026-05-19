@@ -87,3 +87,27 @@ repo_ids:
   - rhel-9-for-aarch64-supplementary-eus-rhui-debug-rpms-9.6
   - rhel-9-for-aarch64-supplementary-eus-rhui-rpms-9.6
   - rhel-9-for-aarch64-supplementary-eus-rhui-source-rpms-9.6
+  - codeready-builder-for-rhel-9-x86_64-eus-rhui-debug-rpms-9.8
+  - codeready-builder-for-rhel-9-x86_64-eus-rhui-rpms-9.8
+  - codeready-builder-for-rhel-9-x86_64-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-appstream-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-baseos-eus-rhui-source-rpms-9.8
+  - rhel-9-for-x86_64-supplementary-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-x86_64-supplementary-eus-rhui-rpms-9.8
+  - rhel-9-for-x86_64-supplementary-eus-rhui-source-rpms-9.8
+  - codeready-builder-for-rhel-9-aarch64-eus-rhui-debug-rpms-9.8
+  - codeready-builder-for-rhel-9-aarch64-eus-rhui-rpms-9.8
+  - codeready-builder-for-rhel-9-aarch64-eus-rhui-source-rpms-9.8
+  - rhel-9-for-aarch64-appstream-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-aarch64-appstream-eus-rhui-rpms-9.8
+  - rhel-9-for-aarch64-appstream-eus-rhui-source-rpms-9.8
+  - rhel-9-for-aarch64-baseos-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-aarch64-baseos-eus-rhui-rpms-9.8
+  - rhel-9-for-aarch64-baseos-eus-rhui-source-rpms-9.8
+  - rhel-9-for-aarch64-supplementary-eus-rhui-debug-rpms-9.8
+  - rhel-9-for-aarch64-supplementary-eus-rhui-rpms-9.8
+  - rhel-9-for-aarch64-supplementary-eus-rhui-source-rpms-9.8
