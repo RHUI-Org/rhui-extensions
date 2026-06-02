@@ -14,8 +14,8 @@ repo_labels:
   - rhel-10-for-x86_64-baseos-rhui-debug-rpms
   - rhel-10-for-x86_64-supplementary-rhui-source-rpms
   - rhel-10-for-x86_64-supplementary-rhui-debug-rpms
-  - rhel-10-for-x86_64-highavailability-source-rhui-rpms
-  - rhel-10-for-x86_64-highavailability-debug-rhui-rpms
+  - rhel-10-for-x86_64-highavailability-rhui-source-rpms
+  - rhel-10-for-x86_64-highavailability-rhui-debug-rpms
   - rhel-10-for-x86_64-extensions-rhui-debug-rpms
   - rhel-10-for-x86_64-extensions-rhui-rpms
   - rhel-10-for-x86_64-extensions-rhui-source-rpms
@@ -34,8 +34,8 @@ repo_ids:
   - rhel-10-for-x86_64-baseos-rhui-source-rpms-10
   - rhel-10-for-x86_64-supplementary-rhui-debug-rpms-10
   - rhel-10-for-x86_64-supplementary-rhui-source-rpms-10
-  - rhel-10-for-x86_64-highavailability-source-rhui-rpms-10
-  - rhel-10-for-x86_64-highavailability-debug-rhui-rpms-10
+  - rhel-10-for-x86_64-highavailability-rhui-source-rpms-10
+  - rhel-10-for-x86_64-highavailability-rhui-debug-rpms-10
   - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10
   - rhel-10-for-x86_64-extensions-rhui-rpms-10
   - rhel-10-for-x86_64-extensions-rhui-source-rpms-10
