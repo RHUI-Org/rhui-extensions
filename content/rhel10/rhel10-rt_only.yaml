@@ -1,0 +1,35 @@
+name: Red Hat Enterprise Linux 10 RealTime Only
+
+repo_labels:
+  - rhel-10-for-x86_64-rt-rhui-source-rpms
+  - rhel-10-for-x86_64-rt-rhui-rpms
+  - rhel-10-for-x86_64-rt-rhui-debug-rpms
+  - rhel-10-for-aarch64-rt-rhui-source-rpms
+  - rhel-10-for-aarch64-rt-rhui-rpms
+  - rhel-10-for-aarch64-rt-rhui-debug-rpms
+  - rhel-10-for-aarch64-rt-eus-rhui-debug-rpms
+  - rhel-10-for-aarch64-rt-eus-rhui-rpms
+  - rhel-10-for-aarch64-rt-eus-rhui-source-rpms
+  - rhel-10-for-x86_64-rt-eus-rhui-debug-rpms
+  - rhel-10-for-x86_64-rt-eus-rhui-rpms
+  - rhel-10-for-x86_64-rt-eus-rhui-source-rpms
+
+repo_ids:
+  - rhel-10-for-x86_64-rt-rhui-source-rpms-10
+  - rhel-10-for-x86_64-rt-rhui-rpms-10
+  - rhel-10-for-x86_64-rt-rhui-debug-rpms-10
+  - rhel-10-for-aarch64-rt-rhui-source-rpms-10
+  - rhel-10-for-aarch64-rt-rhui-rpms-10
+  - rhel-10-for-aarch64-rt-rhui-debug-rpms-10
+  - rhel-10-for-aarch64-rt-eus-rhui-debug-rpms-10.0
+  - rhel-10-for-aarch64-rt-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-aarch64-rt-eus-rhui-rpms-10.0
+  - rhel-10-for-aarch64-rt-eus-rhui-rpms-10.2
+  - rhel-10-for-aarch64-rt-eus-rhui-source-rpms-10.0
+  - rhel-10-for-aarch64-rt-eus-rhui-source-rpms-10.2
+  - rhel-10-for-x86_64-rt-eus-rhui-debug-rpms-10.0
+  - rhel-10-for-x86_64-rt-eus-rhui-debug-rpms-10.2
+  - rhel-10-for-x86_64-rt-eus-rhui-rpms-10.0
+  - rhel-10-for-x86_64-rt-eus-rhui-rpms-10.2
+  - rhel-10-for-x86_64-rt-eus-rhui-source-rpms-10.0
+  - rhel-10-for-x86_64-rt-eus-rhui-source-rpms-10.2
