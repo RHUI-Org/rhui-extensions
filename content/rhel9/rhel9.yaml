@@ -31,6 +31,12 @@ repo_labels:
   - rhel-9-for-x86_64-extensions-rhui-rpms
   - rhel-9-for-x86_64-extensions-rhui-source-rpms
   - rhel-9-for-x86_64-extensions-rhui-debug-rpms
+  - rhel-9-for-aarch64-rt-rhui-debug-rpms
+  - rhel-9-for-aarch64-rt-rhui-rpms
+  - rhel-9-for-aarch64-rt-rhui-source-rpms
+  - rhel-9-for-x86_64-rt-rhui-debug-rpms
+  - rhel-9-for-x86_64-rt-rhui-rpms
+  - rhel-9-for-x86_64-rt-rhui-source-rpms
 
 repo_ids:
   - rhel-9-for-aarch64-appstream-rhui-rpms-9
@@ -63,3 +69,9 @@ repo_ids:
   - rhel-9-for-x86_64-extensions-rhui-debug-rpms-9
   - rhel-9-for-x86_64-extensions-rhui-rpms-9
   - rhel-9-for-x86_64-extensions-rhui-source-rpms-9
+  - rhel-9-for-aarch64-rt-rhui-debug-rpms-9
+  - rhel-9-for-aarch64-rt-rhui-rpms-9
+  - rhel-9-for-aarch64-rt-rhui-source-rpms-9
+  - rhel-9-for-x86_64-rt-rhui-debug-rpms-9
+  - rhel-9-for-x86_64-rt-rhui-rpms-9
+  - rhel-9-for-x86_64-rt-rhui-source-rpms-9
