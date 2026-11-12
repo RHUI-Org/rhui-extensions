@@ -123,3 +123,36 @@ repo_ids:
   - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10.2
   - rhel-10-for-x86_64-extensions-rhui-rpms-10.2
   - rhel-10-for-x86_64-extensions-rhui-source-rpms-10.2
+  - rhel-10-for-aarch64-extensions-rhui-debug-rpms-10.3
+  - rhel-10-for-aarch64-extensions-rhui-rpms-10.3
+  - rhel-10-for-aarch64-extensions-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-extensions-rhui-debug-rpms-10.3
+  - rhel-10-for-x86_64-extensions-rhui-rpms-10.3
+  - rhel-10-for-x86_64-extensions-rhui-source-rpms-10.3
+  - codeready-builder-for-rhel-10-aarch64-rhui-rpms-10.3
+  - codeready-builder-for-rhel-10-x86_64-rhui-rpms-10.3
+  - rhel-10-for-aarch64-appstream-rhui-rpms-10.3
+  - rhel-10-for-x86_64-appstream-rhui-rpms-10.3
+  - rhel-10-for-aarch64-baseos-rhui-rpms-10.3
+  - rhel-10-for-x86_64-baseos-rhui-rpms-10.3
+  - rhel-10-for-aarch64-supplementary-rhui-rpms-10.3
+  - rhel-10-for-x86_64-supplementary-rhui-rpms-10.3
+  - codeready-builder-for-rhel-10-aarch64-rhui-debug-rpms-10.3
+  - codeready-builder-for-rhel-10-aarch64-rhui-source-rpms-10.3
+  - codeready-builder-for-rhel-10-x86_64-rhui-debug-rpms-10.3
+  - codeready-builder-for-rhel-10-x86_64-rhui-source-rpms-10.3
+  - rhel-10-for-aarch64-appstream-rhui-source-rpms-10.3
+  - rhel-10-for-aarch64-appstream-rhui-debug-rpms-10.3
+  - rhel-10-for-aarch64-baseos-rhui-debug-rpms-10.3
+  - rhel-10-for-aarch64-baseos-rhui-source-rpms-10.3
+  - rhel-10-for-aarch64-supplementary-rhui-debug-rpms-10.3
+  - rhel-10-for-aarch64-supplementary-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-appstream-rhui-debug-rpms-10.3
+  - rhel-10-for-x86_64-baseos-rhui-debug-rpms-10.3
+  - rhel-10-for-x86_64-appstream-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-baseos-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-supplementary-rhui-debug-rpms-10.3
+  - rhel-10-for-x86_64-supplementary-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-highavailability-rhui-debug-rpms-10.3
+  - rhel-10-for-x86_64-highavailability-rhui-source-rpms-10.3
+  - rhel-10-for-x86_64-highavailability-rhui-rpms-10.3
