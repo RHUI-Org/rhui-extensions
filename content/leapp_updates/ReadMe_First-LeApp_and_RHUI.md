@@ -15,7 +15,7 @@ LeApp updates are supported only from certain versions to certain versions of RH
 The complete list of those supported paths can be found in the documentation for the particular RHEL version. Each documentation describes the update from one RHEL version below:
 * For RHEL 8 it describes the update from RHEL 7 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/8/html/upgrading_from_rhel_7_to_rhel_8/con_supported-upgrade-paths-rhel-7-to-rhel-8_upgrading-from-rhel-7-to-rhel-8
 * Update from RHEL 8 to RHEL 9 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/upgrading_from_rhel_8_to_rhel_9/con_supported-upgrade-paths_upgrading-from-rhel-8-to-rhel-9
-* Update from RHEL 9 to RHEL 10 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/upgrading_from_rhel_9_to_rhel_10/supported-upgrade-paths
+* Update from RHEL 9 to RHEL 10 - https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/upgrade-supported_upgrade_paths
 
 Note that for updates to the current version of RHEL, the version numbers are updated every time a new version of RHEL is released. So the supported path at the moment of writing is RHEL 9.7 to RHEL 10.1, but once RHEL 9.8 and 10.2 are released, it will be updated to the newest versions. As RHEL 9 reaches its final version (9.10), the target RHEL 10 version will be updated every time a new version of RHEL 10 is released.
 
